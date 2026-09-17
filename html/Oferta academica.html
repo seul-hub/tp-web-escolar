@@ -36,9 +36,8 @@
 
 
         <section id="oferta" class="oferta">
-            <h2>OFERTA ACADÉMICA</h2>
 
-            <article class="specialty">
+            <article class="specialty" onclick="onclickProgramacion()">
                 <div class="specialty-text">
                     <h2>PROGRAMACIÓN</h2>
                     <h3>Lógica y Fundamentos de Programación</h3>
@@ -51,7 +50,7 @@
                 <img src="programacion.jpeg" alt="Programación">
             </article>
 
-            <article class="specialty">
+            <article class="specialty" onclick="onclickMultimedios()">
                 <div class="specialty-text">
                     <h2>MULTIMEDIOS</h2>
                     <h3>Diseño y Producción Multimedial</h3>
@@ -74,6 +73,14 @@
         </div>
         <p class="copyright">E.E.S.T. N° 7 - Banfield</p>
     </footer>
+    <script>
+        function onclickProgramacion() {
+            window.location.href = "#programacionInfo";
+        }
 
+        function onclickMultimedios() {
+            window.location.href = "#multimediosInfo";
+        }
+</script>
 </body>
 </html>
