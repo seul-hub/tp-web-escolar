@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    background: #fff;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header {
+    min-height: 95px;
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo-area h1 {
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #258dd0;
+}
+
+/* HERO */
+
+.hero {
+    position: relative;
+    min-height: 520px;
+    overflow: hidden;
+}
+
+.hero > img {
+    height: 520px;
+    filter: brightness(.88);
+}
+
+.hero-card {
+    position: absolute;
+    background: rgba(255, 255, 255, .96);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .15);
+}
+
+.hero-card h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.hero-card p,
+.hero-card li {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.hero-card ul {
+    padding-left: 17px;
+}
+
+.oferta-card {
+    width: 250px;
+    top: 50px;
+    left: 43%;
+}
+
+.inscripcion-card {
+    width: 280px;
+    top: 225px;
+    left: 43%;
+}
+
+.requisitos-card {
+    width: 230px;
+    top: 50px;
+    right: 4%;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 13px;
+    color: #fff;
+    background: #111;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+
+
+.about {
+    padding: 65px 10%;
+    background: linear-gradient(#a9d5ff, #fff4df);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.section-title p {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.about-grid {
+    max-width: 720px;
+    margin: auto;
+    display: grid;
+    gap: 12px;
+}
+
+.about-box {
+    background: #fff;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+
+.about-box.dashed {
+    border: 1px dashed #777;
+    box-shadow: none;
+    background: transparent;
+}
+
+.about-box h3 {
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.about-box small {
+    font-size: 10px;
+    color: #777;
+}
+
+.about-box p {
+    margin-top: 14px;
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* EXPERIENCIA */
+
+.experiencia {
+    padding: 55px 6% 80px;
+    background: #fff;
+}
+
+.experiencia > h2,
+.oferta > h2 {
+    font-size: 27px;
+    margin-bottom: 45px;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    max-width: 850px;
+    margin: auto;
+}
+
+.experience-card {
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,.12);
+}
+
+.experience-card img {
+    height: 145px;
+}
+
+.experience-card h3 {
+    padding: 14px;
+    font-size: 13px;
+}
+
+
+
+.oferta {
+    padding: 70px 9%;
+    background: #fafafa;
+}
+
+.specialty {
+    max-width: 950px;
+    margin: 0 auto 42px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 280px;
+    background: #f0a7e8;
+}
+
+.specialty:nth-of-type(2) {
+    background: #f0a7e8;
+}
+
+.specialty-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.specialty-text > h2 {
+    background: #dd35d5;
+    margin: -30px -30px 25px;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.specialty-text h3 {
+    font-size: 28px;
+    max-width: 380px;
+    margin-bottom: 15px;
+}
+
+.specialty-text p {
+    font-size: 12px;
+    line-height: 1.5;
+    max-width: 440px;
+}
+
+.specialty img {
+    min-height: 280px;
+}
+
+
+
+footer {
+    background: #3495d3;
+    color: #fff;
+    min-height: 145px;
+    padding: 35px 7%;
+    font-size: 11px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+.copyright {
+    text-align: right;
+    margin-top: 35px;
+}
+
+
+
+@media (max-width: 800px) {
+    .header {
+        flex-direction: column;
+        gap: 18px;
+        text-align: center;
+    }
+
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero > img {
+        height: 300px;
+    }
+
+    .hero-card {
+        position: static;
+        width: 90%;
+        margin: -30px auto 40px;
+        z-index: 2;
+    }
+
+    .about {
+        padding: 50px 6%;
+    }
+
+    .section-title h2 {
+        font-size: 34px;
+    }
+
+    .experience-grid {
+        grid-template-columns: 1fr;
+        max-width: 350px;
+    }
+
+    .oferta {
+        padding: 50px 5%;
+    }
+
+    .specialty {
+        grid-template-columns: 1fr;
+    }
+
+    .specialty img {
+        min-height: 220px;
+        order: 2;
+    }
+
+    .specialty-text {
+        order: 1;
+    }
+}
