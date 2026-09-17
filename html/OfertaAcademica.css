@@ -11,7 +11,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #111;
-    background: #fff;
+    background: white;
 }
 
 img {
@@ -26,7 +26,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: white;
 }
 
 .logo-area {
@@ -63,14 +63,28 @@ nav a:hover {
 /* HERO */
 
 .hero {
+
+    background-color: #071933;
+
     position: relative;
     min-height: 520px;
     overflow: hidden;
-}
-
-.hero > img {
     height: 520px;
     filter: brightness(.88);
+    align-content: center;
+}
+.hero p{
+    
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-left-style: solid;
+    
+    font-size: 6.4rem;
+    line-height: 8.5rem;
+    padding-left: 2rem;
+
+
 }
 
 .hero-card {
@@ -308,14 +322,24 @@ footer p {
     }
 
     .hero {
+        background-color: #071933;
+
         min-height: auto;
-        display: flex;
         flex-direction: column;
+        height: 300px;
+        
+    }
+    .hero p{
+        align-self: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        border-left-style: solid;
+
+        font-size: 3.2rem;
+        line-height: 4.8rem;
+        padding-left: 0.5rem;
     }
 
-    .hero > img {
-        height: 300px;
-    }
 
     .hero-card {
         position: static;
