@@ -274,6 +274,74 @@ nav a:hover {
 }
 
 
+/* Sección desplegable */
+  .desplegable {
+    margin-bottom: 1.25rem;
+  }
+
+  /* Cabecera azul clicable */
+  .desplegable-titulo {
+    background: #3b82f6;
+    color: #fff;
+    padding: 0.85rem 1.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 1.05rem;
+    user-select: none;
+  }
+
+  .desplegable-titulo:hover {
+    background: #2563eb;
+  }
+
+  /* Flecha ">" que gira a "v" al abrir */
+  .flecha {
+    display: inline-block;
+    margin-left: 0.5rem;
+    transition: transform 0.25s ease;
+    font-weight: 700;
+  }
+
+  .abierto .flecha {
+    transform: rotate(90deg);
+  }
+
+  /* Contenido */
+  .desplegable-contenido {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, padding 0.35s ease;
+    padding: 0 1.25rem;
+    background: #fff;
+  }
+
+  .abierto .desplegable-contenido {
+    max-height: 1000px;
+    padding: 1rem 1.25rem 1.25rem;
+  }
+
+  /* Listas del contenido */
+  .desplegable-contenido ul {
+    padding-left: 1.25rem;
+    margin: 0.5rem 0;
+  }
+
+  .desplegable-contenido li {
+    margin-bottom: 0.4rem;
+  }
+
+  .desplegable-contenido a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+
+  .desplegable-contenido a:hover {
+    text-decoration: underline;
+  }
+
 
 footer {
     background: #3495d3;
