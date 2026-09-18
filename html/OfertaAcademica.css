@@ -91,6 +91,15 @@ nav a:hover {
 
 }
 
+#perfilProfesionalProgramacion, #perfilProfesionalMultimedios{
+    text-align: justify;
+    font-family: 'Roboto', Verdana, sans-serif;
+    color:#797979;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin: 2rem;
+}
+
 .section-title {
     text-align: center;
     margin-bottom: 30px;
