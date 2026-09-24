@@ -60,6 +60,6 @@ La página web incluye las siguientes secciones:
 
 - HTML5 - Estructura del sitio
 - CSS3 - Estilos y diseño responsivo
-- Figma como capa de diseño
+- Figma como capa de diseño https://www.figma.com/site/EPOOaxFbsXdKrz3TWfQWp4/Modern--Clean-SaaS-Company--Community-?node-id=0-1&t=W1MxsET0dZm7Jk95-1
 
 ---
