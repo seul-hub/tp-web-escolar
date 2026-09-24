@@ -12,7 +12,7 @@ El proyecto fue desarrollado por los siguientes estudiantes:
 - Brisa
 - Melanie
 - Marcos
-- Zamir
+- Samir
 
 ---
 
